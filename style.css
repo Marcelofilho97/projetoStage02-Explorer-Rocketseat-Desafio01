@@ -1,0 +1,57 @@
+body {
+  font-family: 'Opens-sans', sans-serif;
+  text-align: center;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px; 
+  /*top, left/right, bottom (ideia de relógio sentido horário)*/
+
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 8px;
+
+  border: 1px solid #eceff2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
